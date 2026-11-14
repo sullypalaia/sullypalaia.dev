@@ -82,7 +82,7 @@
 }
 
 .project2_text {
-  width: 40%
+  width: 30%
 }
 
 .project1_text h3,
@@ -93,12 +93,22 @@
   margin-bottom: 0.5rem;
 }
 
+.project1_image,
+.project2_image {
+  transition: scale(1.1)
+}
 
 .project1_image {
   filter: drop-shadow(0px 0px 10px rgba(255.0, 0.0, 0.0, 1.0));
   transition: transform 0.3s ease-in-out;
 }
 
-.project1_image:hover {
+.project2_image {
+  filter: drop-shadow(0px 0px 10px rgba(0.0, 255.0, 0.0, 1.0));
+  transition: transform 0.3s ease-in-out;
+}
+
+.project1_image:hover,
+.project2_image:hover {
   transform: scale(1.1);
 }

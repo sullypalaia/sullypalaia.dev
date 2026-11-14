@@ -1,5 +1,6 @@
 import styles from "@/src/styles/page.module.css"
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -39,9 +40,9 @@ export default function Home() {
         <div className={styles.projects}>
           <section className={styles.project1}>
             <div className={styles.project1_text}>
-              <h3 className={styles.project1_title}>fancy-marks.nvim</h3>
+              <h3 className={styles.project1_title}><Link href="https://github.com/sullypalaia/fancy-marks.nvim" target="_blank">fancy-marks.nvim</Link></h3>
               <p className={styles.project1_description}>
-                A game engine built with OpenGL and C++ that allows for the creation of 2D and 3D games.
+                fancy-marks.nvim is a Neovim plugin that implements a menu for managing marks, allowing users to easily view, jump to, and delete marks. Hovering over a mark entry also displays a preview of the mark in a popup window.
               </p>
             </div>
             <div className={styles.project1_image}>
@@ -50,12 +51,13 @@ export default function Home() {
           </section>
           <section className={styles.project2}>
             <div className={styles.project2_text}>
-              <h3 className={styles.project2_title}>fancy-notifications.nvim</h3>
+              <h3 className={styles.project2_title}><Link href="https://github.com/sullypalaia/fancy-notifications.nvim" target="_blank">fancy-notifications.nvim</Link></h3>
               <p className={styles.project2_description}>
-                A game engine built with OpenGL and C++ that allows for the creation of 2D and 3D games.
+                fancy-notifications.nvim is a Neovim plugin that redefines the way notifications are displayed in Neovim. With this plugin, notifications slide onto and off of the screen and have various border colors based on the level of the notification. These features make Neovim notifications more visually appealing and easier to read.
               </p>
             </div>
             <div className={styles.project2_image}>
+              <Image src="/fancy-notis-sc.png" alt="fancy-notifications.nvim screenshot" width={400} height={200} className={styles.fancy_notis_image} />
             </div>
           </section>
         </div>
