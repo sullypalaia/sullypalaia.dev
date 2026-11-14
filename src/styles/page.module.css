@@ -1,0 +1,104 @@
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  flex-wrap: ;
+}
+
+.personal_intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projects_intro {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.experience_intro {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.personal_intro_text,
+.projects_intro_text,
+.experience_intro_text {
+  font-size: 1rem;
+}
+
+.personal_intro_images,
+.project_intro_images,
+.experience_intro_images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  filter: drop-shadow(10px 10px 10px rgba(0.0, 0.0, 0.0, 0.7));
+}
+
+.project_header,
+.experience_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.project1,
+.project2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project1_text {
+  width: 30%;
+}
+
+.project2_text {
+  width: 40%
+}
+
+.project1_text h3,
+.project2_text h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+
+
+.project1_image {
+  filter: drop-shadow(0px 0px 10px rgba(255.0, 0.0, 0.0, 1.0));
+  transition: transform 0.3s ease-in-out;
+}
+
+.project1_image:hover {
+  transform: scale(1.1);
+}

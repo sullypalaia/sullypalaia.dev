@@ -1,0 +1,42 @@
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+/*navbar styles*/
+.navbar {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+/*link defaults*/
+.navbar a {
+  display: inline-block;
+  color: gray;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+/*active links*/
+.navbar a.active {
+  color: black;
+}
+
+/*links being hovered over*/
+.navbar a:hover {
+  color: red;
+  transform: scale(1.1);
+}
