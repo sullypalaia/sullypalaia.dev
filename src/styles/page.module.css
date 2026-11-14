@@ -17,22 +17,12 @@
   flex-wrap: ;
 }
 
-.personal_intro {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-}
-
-.projects_intro {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
+.personal_intro,
+.projects_intro,
 .experience_intro {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -77,12 +67,9 @@
   justify-content: center;
 }
 
-.project1_text {
-  width: 30%;
-}
-
+.project1_text,
 .project2_text {
-  width: 30%
+  width: 30%;
 }
 
 .project1_text h3,
