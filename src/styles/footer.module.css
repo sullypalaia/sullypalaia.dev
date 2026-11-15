@@ -1,0 +1,15 @@
+.footer {
+  background-color: black;
+}
+
+.footer_text {
+  font-weight: bold;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+}
