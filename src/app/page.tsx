@@ -1,4 +1,4 @@
-import styles from "@/src/styles/page.module.css"
+import styles from "@/src/styles/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -61,10 +61,6 @@ export default function Home() {
             </div>
           </section>
         </div>
-      </div>
-
-      <div className={styles.experience}>
-        <h2 className={styles.experience_header}>My Experience</h2>
       </div>
     </>
   );

@@ -1,15 +1,27 @@
 .footer {
   background-color: black;
-}
-
-.footer_text {
-  font-weight: bold;
-  color: white;
-}
-
-.socials {
   display: flex;
   flex-direction: row;
-  color: white;
+  justify-content: center;
+  align-items: center;
+  color: gray;
   font-weight: bold;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+  padding: 1rem;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.github_icon {
+  filter: invert(1);
+  height: 80%;
 }

@@ -3,8 +3,11 @@
   justify-content: center;
   align-items: center;
   margin-top: 5%;
-  font-size: 2rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  -webkit-text-stroke: 5px #ffb0b9;
+  paint-order: stroke fill;
 }
 
 .intro {
@@ -14,7 +17,6 @@
   align-items: center;
   gap: 2.5rem;
   font-size: 1.5rem;
-  flex-wrap: ;
 }
 
 .personal_intro,
@@ -49,6 +51,9 @@
   margin-top: 5%;
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 3px #ffb0b9;
+  paint-order: stroke fill;
+  font-weight: bold;
 }
 
 .projects {
@@ -56,6 +61,7 @@
   flex-direction: column;
   align-items: center;
   gap: 5rem;
+  margin-bottom: 3rem;
 }
 
 .project1,
