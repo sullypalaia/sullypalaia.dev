@@ -6,7 +6,7 @@
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  -webkit-text-stroke: 5px #ff4538;
+  -webkit-text-stroke: 5px white;
   paint-order: stroke fill;
 }
 
@@ -51,7 +51,7 @@
   margin-top: 5%;
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 3px #ff4538;
+  -webkit-text-stroke: 3px white;
   paint-order: stroke fill;
   font-weight: bold;
 }
@@ -104,4 +104,71 @@
 .project1_image:hover,
 .project2_image:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 48rem) {
+  .name {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 3px;
+  }
+
+  .intro {
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: stretch;
+  }
+
+  .personal_intro,
+  .projects_intro,
+  .experience_intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .project_header {
+    margin-top: 2.5rem;
+    font-size: 1.75rem;
+  }
+
+  .projects {
+    width: 100%;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .project1,
+  .project2 {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .project1_text,
+  .project2_text {
+    width: 100%;
+  }
+
+  .project1_text h3,
+  .project2_text h3 {
+    font-size: 1.25rem;
+    overflow-wrap: anywhere;
+  }
+
+  .project1_image,
+  .project2_image {
+    width: min(100%, 350px);
+  }
+
+  .project1_image img,
+  .project2_image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project1_image:hover,
+  .project2_image:hover {
+    transform: none;
+  }
 }

@@ -31,3 +31,9 @@ body {
 footer {
   margin-top: auto;
 }
+
+@media (max-width: 48rem) {
+  main {
+    padding-inline: 1.5rem;
+  }
+}
