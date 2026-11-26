@@ -6,7 +6,8 @@
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  -webkit-text-stroke: 5px white;
+  -webkit-text-stroke: 10px black;
+  color: white;
   paint-order: stroke fill;
 }
 
@@ -51,7 +52,8 @@
   margin-top: 5%;
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 3px white;
+  -webkit-text-stroke: 10px black;
+  color: white;
   paint-order: stroke fill;
   font-weight: bold;
 }
