@@ -112,7 +112,7 @@
   .name {
     margin-top: 2rem;
     font-size: 2.5rem;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 5px;
   }
 
   .intro {
@@ -132,6 +132,7 @@
   .project_header {
     margin-top: 2.5rem;
     font-size: 1.75rem;
+    -webkit-text-stroke-width: 5px;
   }
 
   .projects {
