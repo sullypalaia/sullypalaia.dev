@@ -6,7 +6,7 @@
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  -webkit-text-stroke: 5px #ffb0b9;
+  -webkit-text-stroke: 5px #ff4538;
   paint-order: stroke fill;
 }
 
@@ -51,7 +51,7 @@
   margin-top: 5%;
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 3px #ffb0b9;
+  -webkit-text-stroke: 3px #ff4538;
   paint-order: stroke fill;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@
 }
 
 .project1_image {
-  filter: drop-shadow(0px 0px 10px rgba(255.0, 0.0, 0.0, 1.0));
+  filter: drop-shadow(0px 0px 10px rgba(0.0, 0.0, 255.0, 1.0));
   transition: transform 0.3s ease-in-out;
 }
 

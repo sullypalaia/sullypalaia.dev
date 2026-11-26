@@ -37,6 +37,6 @@
 
 /*links being hovered over*/
 .navbar a:hover {
-  color: #ff7875;
+  color: #ff4538;
   transform: scale(1.1);
 }
