@@ -1,3 +1,10 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Sully Palaia | Blog",
+  description: "Sully Palaia's blog"
+}
+
 export default function Blog() {
   return (
     <>
